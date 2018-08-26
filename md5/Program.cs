@@ -186,7 +186,7 @@ namespace md5
             }
             else
             {
-                padLen = 56 + padLen;
+                padLen = 64 + 56 - padLen;
             }
 
             if (padLen > 0)
